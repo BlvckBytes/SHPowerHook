@@ -196,7 +196,9 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = SHPowerHook;
 				SDKROOT = macosx;
+				"WARNING_CFLAGS[arch=*]" = "-Wno-inconsistent-missing-override";
 			};
 			name = Debug;
 		};
@@ -248,7 +250,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = SHPowerHook;
 				SDKROOT = macosx;
+				"WARNING_CFLAGS[arch=*]" = "-Wno-inconsistent-missing-override";
 			};
 			name = Release;
 		};
